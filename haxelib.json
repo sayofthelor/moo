@@ -1,0 +1,11 @@
+{
+    "name": "moo",
+    "url" : "https://github.com/sayofthelor/moo/",
+    "license": "GPL",
+    "tags": ["moo", "cow", "useless"],
+    "description": "This library returns a cow with some words of wisdom (which can be custom if you set it), for you to do with as you please.",
+    "version": "1.0.0",
+    "releasenote": "Initial release",
+    "contributors": ["sayofthelor"],
+    "main": "moo.Moo"
+  }
