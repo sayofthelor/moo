@@ -1,4 +1,9 @@
+<div align="center"> 
+         
 # moo.hx
+## `haxelib install moo`
+</div>
+
 This library returns a cow with some words of wisdom (which can be custom if you set it), for you to do with as you please.
 
 ```
@@ -13,7 +18,10 @@ This library returns a cow with some words of wisdom (which can be custom if you
 
 Usage examples:
 ```hx
-trace(Moo.moo("Test"));
-debugPrint(Moo.moo("Helloooooooo!"));
-randomFunctionIMadeUp(Moo.moo("Heyyyyyyyyyyyyyyyyyy!"));
-var x:String = Moo.moo("Have I mooed today?");
+import moo.Moo.moo;
+
+// later
+trace(moo("Test"));
+debugPrint(moo("Helloooooooo!"));
+randomFunctionIMadeUp(moo("Heyyyyyyyyyyyyyyyyyy!"));
+var x:String = moo("Have I mooed today?");
